@@ -1,0 +1,197 @@
+/* GREEN.CSS */
+
+/* INTRO */
+
+.intro {
+    color: #ffffff;
+	background: url(../../img/bg-green.jpg) no-repeat bottom center scroll;
+    background-color: #76d1a0;
+}
+
+.brand-heading {
+	color:#ffffff;
+}
+
+.intro-text {
+	color:#76d1a0;
+}
+
+/* FEATURES */
+
+#features i {
+	color:#d5d5d5;
+}
+
+#features i:hover {
+	color:#76d1a0;
+}
+
+
+/* INFO */
+
+#info ul li i {
+	color:#76d1a0;
+}
+
+
+/* SCREENSHOTS */
+
+#screenshot-carousel i {
+color: #76d1a0;
+}
+
+#screenshot-carousel a:hover {
+	color:red;
+}
+
+
+/* TEAM */
+
+#team {
+	background:#f2f2f2;
+}
+
+
+/* FOOTER */
+
+footer {
+	color:#ffffff;
+	background:#76d1a0;
+}
+
+footer a {
+	color:#ffffff;
+}
+
+footer a:hover {
+	color:#5a9e7a;
+}
+
+
+/*  MISC. 
+    NAVIGATION */
+
+.navbar-custom {
+	color:#ffffff;
+}
+
+.navbar-custom a {
+	color:#ffffff;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+	color:#5a9e7a;
+}
+
+.navbar-custom .navbar-toggle {
+	background:#fff;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+	background:#76d1a0;
+}
+
+.top-nav-collapse {
+	background-color: #76d1a0;
+}
+
+
+/* BUTTON */
+
+.button-border-light {
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.button-border-light:hover,
+.button-border-light:active {
+	color: #76d1a0;
+	background: #ffffff;
+	text-decoration:none;
+}
+
+.button-border-dark {
+	border: 1px solid #76d1a0;
+	color: #76d1a0;
+}
+
+.button-border-dark:hover,
+.button-border-dark:active {
+	color: #ffffff;
+	background: #76d1a0;
+	text-decoration:none;
+}
+
+
+/* FORM ELEMENTS */
+
+input {
+	color:#666666;
+	background: rgba(255,255,255, .7);
+}
+
+
+/* SOCIAL BUTTONS */
+
+.social a {
+	color:rgba(255,255,255, 1);
+} 
+
+
+.social a:hover {
+	color:#5a9e7a;
+	
+}
+
+.social .fa-inverse {
+	color: #76d1a0;
+}
+
+
+/* TWITTER */
+
+.twitter {
+	color:#666666;
+}
+
+.twitter .tweetList a {
+	color:#76d1a0;
+}
+
+.twitter i {
+	color:#666;
+}
+
+.twitter i:hover {
+	color:#76d1a0;
+}
+
+
+/* OTHERS */
+
+.parallax {
+	color:#ffffff;
+	background-color:#76d1a0;
+	background:url(../../img/bg-green.jpg) 50% 0 no-repeat fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+}
+
+.parallax h2 {
+	color:#ffffff;
+}
+
+.hr {
+	border-top:1px solid #76d1a0;
+}
+
+/* PRELOAD */
+
+.preload {
+	background:#76d1a0;
+}
+
+.spinner > div {
+	background-color:#ffffff;
+}

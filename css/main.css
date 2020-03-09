@@ -1,0 +1,413 @@
+
+/* BRAINIFY CSS */
+
+/*	
+	1. FULLSCREEN SLIDER
+	2. SECTION FEATURES
+	3. SECTION OVERVIEW
+	4. SECTION INFO
+	5. TESTIMONIALS
+	6. SECTION SCREENSHOTS
+	7. SECTION TEAM
+	8. CLIENTS
+	9. FOOTER
+	10. MISC
+		A. Navigation
+		B. Buttons
+		C. Form Elements
+		D. Social Buttons
+		E. Twitter
+		F. Preload
+		G. Others
+*/ 
+
+/* 1. FULLSCREEN SLIDER */
+
+
+#slides  .container {
+	display:table-cell;
+	vertical-align:middle;
+	width:100%;
+}
+
+#slides h1 {
+	font-size:7em;
+	color:#ffffff;
+}
+
+#slides .lead {
+	font-size:2em;
+	color:#ffffff;
+}
+
+
+
+/* 2. FEATURES */
+
+#features {
+	padding-bottom:50px;
+}
+
+#features h3 {
+	margin-top:0;
+}
+
+#features i {
+	float:left;
+	padding:0 10px 50px 0;
+	color:#d5d5d5;
+}
+
+#features i:hover {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#features .feature {
+	float:none;
+	display:inline-table;
+}
+
+
+/* 3. OVERVIEW */
+
+#overview {
+	padding-bottom:0;
+}
+
+#overview .text {
+	margin:35px 0 0 0;
+}
+
+
+/* 4. INFO */
+
+#info {
+	padding-bottom:50px;
+}
+
+#info ul li i {
+	margin:0 10px 0 0;
+	vertical-align:middle;
+}
+
+#info  i {
+	margin:0 10px 0 0;
+	vertical-align:middle;
+}
+
+
+/* 5. TESTIMONIAL */
+
+#testimonial {
+	margin:30px 0;
+}
+
+#testimonial p {
+	font-size: 21px;
+	letter-spacing: 1px;
+}
+
+
+/* 6. SCREENSHOTS */
+
+#screenshot-carousel .item {
+	margin:5px;
+}
+
+
+/* 7. TEAM */
+
+#team {
+	margin-bottom:10px;
+}
+
+#team h2 {
+	margin:0 0 20px 0; 
+}
+
+#team h3 {
+	margin:15px 0 0 0; 
+}
+
+#team img {
+	float:left;
+	margin:0 10px 50px 0;
+}
+
+#team .team {
+	float:none;
+	display:inline-table;
+}
+
+
+/* 8. CLIENTS */
+
+#clients {
+	margin:50px 0;
+	vertical-align:middle;
+}
+
+#clients img {
+	padding-top:20%;
+}
+
+
+/* 9. FOOTER */
+
+footer {
+	padding:50px 0;
+}
+
+footer a {
+	text-decoration:none;
+}
+
+footer a:hover {
+	text-decoration:none;
+}
+
+footer hr {
+	margin-top: 65px;
+	margin-bottom: 15px;
+}
+
+
+/* 10. MISC. 
+	A. NAVIGATION */
+
+.navbar {
+	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.navbar-custom {
+	font-family:Montserrat;
+	font-size:14px;
+	border-radius:0;
+	margin-bottom:0;
+	padding:50px 0;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.navbar-custom .navbar-toggle {
+	background:#fff;
+}
+
+.top-nav-collapse {
+	padding: 20px 0;
+}
+
+
+/* B.  BUTTONS */
+
+.button {
+	border: none;
+	font-size: 11px;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 5px 15px;
+	display: inline-block;
+	margin: 15px 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.button:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.button-big {
+	padding:15px 30px;
+	font-size:16px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+}
+
+
+/* C. FORM ELEMENTS */
+
+input {
+	padding: 15px;
+	border: 1px solid #fff;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	margin-right: 10px;
+	outline:none;
+}
+
+
+/* D. SOCIAL BUTTONS */
+
+.social a:hover {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition:: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+/* E. TWITTER */
+
+.twitter {
+	margin:40px 0;
+	width: 100%;
+	overflow: hidden;
+	z-index: 0;
+	height:auto;
+}
+
+.twitter img {
+	margin:0 0 50px 0 ;
+}
+
+.twitter .tweetList {
+	list-style:none;
+	padding:0;
+}
+
+.twitter .tweetList a {
+	text-decoration:none;
+	font-weight:600;
+}
+
+.twitter i {
+	float:left;
+	margin:0px 10px;
+}
+
+.twitter i:hover {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition:: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+/* F. PRELOAD */
+
+.preload {
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:9999;
+}
+
+.spinner {
+ 	margin: auto 0;
+	position: absolute;
+	top:50%;
+	left:46%;
+	z-index: 1050;	
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+  0%, 80%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+
+/* G. OTHERS */
+
+.uppercase {
+	text-transform:uppercase;
+}
+
+section {
+	padding:100px 0;
+}
+
+.parallax {
+	width: 100%;
+	overflow: hidden;
+	z-index: 0;
+	height:auto;
+	min-height:300px;
+}
+
+.parallax h2 {
+	padding:15px 0;
+}
+
+.parallax i {
+	display: inline-block;
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: transform;
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.parallax i:hover {
+	-webkit-transform: translateY(-6px);
+	-ms-transform: translateY(-6px);
+	transform: translateY(-6px);
+	-webkit-animation-name: hover;
+	animation-name: hover;
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+}
+
